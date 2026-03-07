@@ -9,13 +9,14 @@ export default function ChatwootWidget() {
     script.src = `${CHATWOOT_URL}/packs/js/sdk.js`;
     script.async = true;
     script.onload = () => {
-      (window as Record<string, unknown>).chatwootSettings = {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const w = window as any;
+      w.chatwootSettings = {
         type: "standard",
         launcherTitle: "Chat with us",
       };
-      const w = window as Record<string, unknown>;
       if (typeof w.chatwootSDK === "object" && w.chatwootSDK !== null) {
-        (w.chatwootSDK as { run: (opts: Record<string, string>) => void }).run({
+        w.chatwootSDK.run({
           websiteToken: "YOUR_CHATWOOT_TOKEN",
           baseUrl: CHATWOOT_URL,
         });
