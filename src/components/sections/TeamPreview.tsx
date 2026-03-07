@@ -6,29 +6,43 @@ import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import SectionHeading from "@/components/ui/SectionHeading";
-import { staggerContainer, staggerItem } from "@/lib/animations";
+import GradientGlow from "@/components/ui/GradientGlow";
 import { TEAM_MEMBERS } from "@/lib/constants";
 
 export default function TeamPreview() {
   const t = useTranslations();
 
   return (
-    <section className="relative py-20 lg:py-32">
-      <Container>
-        <SectionHeading
-          title={t("about.teamTitle")}
-          className="mb-16"
-        />
+    <section
+      className="relative py-20 lg:py-32 overflow-hidden glow-line-top"
+      style={{
+        background:
+          "linear-gradient(180deg, rgba(10, 35, 83, 0.15) 0%, transparent 30%, transparent 70%, rgba(10, 35, 83, 0.15) 100%)",
+      }}
+    >
+      {/* Centered gradient glow behind the grid */}
+      <GradientGlow
+        variant="mixed"
+        size="lg"
+        className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+      />
 
-        <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6"
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
-        >
+      <Container className="relative z-10">
+        <SectionHeading title={t("about.teamTitle")} className="mb-16" />
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {TEAM_MEMBERS.map((member, i) => (
-            <motion.div key={i} variants={staggerItem}>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{
+                duration: 0.5,
+                delay: i * 0.1,
+                ease: "easeOut",
+              }}
+            >
               <Card className="text-center group">
                 {/* Avatar */}
                 <div className="w-20 h-20 rounded-full bg-gradient-cta mx-auto mb-5 flex items-center justify-center group-hover:glow-purple transition-shadow duration-300">
@@ -55,15 +69,15 @@ export default function TeamPreview() {
               </Card>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
 
         {/* CTA */}
         <motion.div
           className="text-center mt-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
           <Button href="/chi-siamo" variant="secondary" size="lg">
             {t("about.title")}

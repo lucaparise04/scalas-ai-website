@@ -1,7 +1,7 @@
 import type { Variants } from "framer-motion";
 
 export const fadeIn: Variants = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0.01 },
   visible: {
     opacity: 1,
     transition: { duration: 0.6, ease: "easeOut" },
@@ -9,7 +9,7 @@ export const fadeIn: Variants = {
 };
 
 export const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0.01, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
@@ -18,7 +18,7 @@ export const fadeInUp: Variants = {
 };
 
 export const fadeInDown: Variants = {
-  hidden: { opacity: 0, y: -30 },
+  hidden: { opacity: 0.01, y: -20 },
   visible: {
     opacity: 1,
     y: 0,
@@ -27,7 +27,7 @@ export const fadeInDown: Variants = {
 };
 
 export const fadeInLeft: Variants = {
-  hidden: { opacity: 0, x: -30 },
+  hidden: { opacity: 0.01, x: -20 },
   visible: {
     opacity: 1,
     x: 0,
@@ -36,7 +36,7 @@ export const fadeInLeft: Variants = {
 };
 
 export const fadeInRight: Variants = {
-  hidden: { opacity: 0, x: 30 },
+  hidden: { opacity: 0.01, x: 20 },
   visible: {
     opacity: 1,
     x: 0,
@@ -45,7 +45,7 @@ export const fadeInRight: Variants = {
 };
 
 export const scaleIn: Variants = {
-  hidden: { opacity: 0, scale: 0.9 },
+  hidden: { opacity: 0.01, scale: 0.95 },
   visible: {
     opacity: 1,
     scale: 1,
@@ -54,7 +54,7 @@ export const scaleIn: Variants = {
 };
 
 export const staggerContainer: Variants = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0.01 },
   visible: {
     opacity: 1,
     transition: {
@@ -65,7 +65,7 @@ export const staggerContainer: Variants = {
 };
 
 export const staggerItem: Variants = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0.01, y: 14 },
   visible: {
     opacity: 1,
     y: 0,
@@ -74,7 +74,7 @@ export const staggerItem: Variants = {
 };
 
 export const slideInFromBottom: Variants = {
-  hidden: { opacity: 0, y: 60 },
+  hidden: { opacity: 0.01, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
@@ -83,10 +83,24 @@ export const slideInFromBottom: Variants = {
 };
 
 export const navVariants: Variants = {
-  hidden: { opacity: 0, y: -20 },
+  hidden: { opacity: 0.01, y: -20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: { duration: 0.4, ease: "easeOut" },
+  },
+};
+
+export const sectionReveal: Variants = {
+  hidden: { opacity: 0.01, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: [0.25, 0.46, 0.45, 0.94],
+      staggerChildren: 0.12,
+      delayChildren: 0.15,
+    },
   },
 };
