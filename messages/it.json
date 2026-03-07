@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "about": "Chi Siamo",
+    "apply": "Candidati",
+    "contact": "Contattaci",
+    "bookCall": "Prenota una Call"
+  },
+  "hero": {
+    "badge": "AI Automation Agency",
+    "title": "Acceleriamo la tua crescita con l'IA",
+    "subtitle": "Automatizziamo i tuoi processi aziendali con intelligenza artificiale, eliminando il lavoro manuale e moltiplicando i risultati.",
+    "cta": "Prenota una Call Gratuita",
+    "ctaSecondary": "Scopri i Servizi",
+    "stats": {
+      "automations": "Automazioni Attive",
+      "hours": "Ore Risparmiate/Mese",
+      "roi": "ROI Medio Clienti",
+      "clients": "Clienti Attivi"
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Soluzioni AI end-to-end per ogni area del tuo business",
+    "categories": {
+      "ai_automation": "AI & Automazione",
+      "ai_agents": "Agenti AI",
+      "lead_generation": "Lead Generation",
+      "cold_email": "Cold Email Outreach",
+      "crm": "CRM & Pipeline",
+      "social_media": "Social Media Management",
+      "content": "Content Creation",
+      "web_dev": "Sviluppo Web",
+      "analytics": "Analytics & Reporting",
+      "consulting": "Consulenza Strategica",
+      "training": "Formazione",
+      "video": "Video Marketing",
+      "seo": "SEO & Ottimizzazione"
+    },
+    "from": "Da",
+    "delivery": "Consegna",
+    "days": "giorni",
+    "viewAll": "Vedi Tutti i Servizi",
+    "requestQuote": "Richiedi Preventivo"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Un team internazionale di esperti in AI e automazione",
+    "mission": "La nostra missione e rendere l'intelligenza artificiale accessibile a ogni azienda, automatizzando processi ripetitivi e liberando il potenziale umano per cio che conta davvero.",
+    "teamTitle": "Il Nostro Team",
+    "values": {
+      "title": "I Nostri Valori",
+      "innovation": "Innovazione",
+      "innovationDesc": "Sempre all'avanguardia nelle tecnologie AI",
+      "results": "Risultati",
+      "resultsDesc": "Misuriamo tutto. Se non porta ROI, non lo facciamo",
+      "transparency": "Trasparenza",
+      "transparencyDesc": "Comunicazione chiara, nessun costo nascosto",
+      "speed": "Velocita",
+      "speedDesc": "Implementazione rapida, risultati in settimane non mesi"
+    }
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Clienti",
+    "subtitle": "Risultati reali da aziende reali"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Tutto quello che devi sapere sui nostri servizi",
+    "items": {
+      "q1": "Quanto tempo ci vuole per implementare un'automazione?",
+      "a1": "Dipende dalla complessita. Le automazioni semplici sono pronte in 3-5 giorni, quelle complesse in 2-4 settimane. Durante la call gratuita definiamo tempi precisi.",
+      "q2": "Devo avere competenze tecniche?",
+      "a2": "Assolutamente no. Ci occupiamo di tutto noi, dalla progettazione all'implementazione. Ti formiamo sull'uso degli strumenti finali.",
+      "q3": "Quali risultati posso aspettarmi?",
+      "a3": "In media i nostri clienti vedono un aumento del 300% nella produttivita e un risparmio di 40+ ore al mese su task ripetitivi.",
+      "q4": "Offrite supporto post-implementazione?",
+      "a4": "Si, tutti i nostri piani includono supporto continuo. Monitoriamo le automazioni e le ottimizziamo nel tempo.",
+      "q5": "Come funziona il processo di onboarding?",
+      "a5": "1) Call conoscitiva gratuita, 2) Analisi dei processi, 3) Proposta personalizzata, 4) Implementazione, 5) Training e Go-live."
+    }
+  },
+  "cta": {
+    "title": "Pronto a Trasformare il Tuo Business?",
+    "subtitle": "Prenota una call gratuita di 30 minuti. Analizzeremo i tuoi processi e ti mostreremo come l'AI puo moltiplicare i tuoi risultati.",
+    "button": "Prenota la Tua Call Gratuita",
+    "noCommitment": "Senza impegno. Senza costi nascosti."
+  },
+  "footer": {
+    "description": "AI Automation Agency specializzata in automazione aziendale e intelligenza artificiale.",
+    "services": "Servizi",
+    "company": "Azienda",
+    "legal": "Legale",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "cookies": "Cookie Policy",
+    "rights": "Tutti i diritti riservati."
+  },
+  "form": {
+    "title": "Candidatura per Collaborazione",
+    "subtitle": "Compila il form per valutare se possiamo aiutarti",
+    "name": "Nome e Cognome",
+    "email": "Email",
+    "company": "Nome Azienda",
+    "website": "Sito Web",
+    "industry": "Settore",
+    "employees": "Numero Dipendenti",
+    "revenue": "Fatturato Annuo",
+    "challenge": "Qual e la tua sfida principale?",
+    "budget": "Budget Mensile per Automazione",
+    "submit": "Invia Candidatura",
+    "success": "Grazie! Ti contatteremo entro 24 ore.",
+    "industries": {
+      "dental": "Clinica Dentale/Estetica",
+      "realestate": "Agenzia Immobiliare",
+      "ecommerce": "E-commerce",
+      "saas": "SaaS/Tech",
+      "agency": "Agenzia Marketing",
+      "consulting": "Consulenza",
+      "other": "Altro"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "apply": "Aplica",
+    "contact": "Contacto",
+    "bookCall": "Reserva una Llamada"
+  },
+  "hero": {
+    "badge": "AI Automation Agency",
+    "title": "Aceleramos tu crecimiento con IA",
+    "subtitle": "Automatizamos tus procesos empresariales con inteligencia artificial, eliminando el trabajo manual y multiplicando resultados.",
+    "cta": "Reserva una Llamada Gratis",
+    "ctaSecondary": "Descubre los Servicios",
+    "stats": {
+      "automations": "Automatizaciones Activas",
+      "hours": "Horas Ahorradas/Mes",
+      "roi": "ROI Medio Clientes",
+      "clients": "Clientes Activos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones AI end-to-end para cada area de tu negocio",
+    "categories": {
+      "ai_automation": "AI y Automatizacion",
+      "ai_agents": "Agentes AI",
+      "lead_generation": "Generacion de Leads",
+      "cold_email": "Cold Email Outreach",
+      "crm": "CRM y Pipeline",
+      "social_media": "Gestion de Redes Sociales",
+      "content": "Creacion de Contenido",
+      "web_dev": "Desarrollo Web",
+      "analytics": "Analitica e Informes",
+      "consulting": "Consultoria Estrategica",
+      "training": "Formacion",
+      "video": "Video Marketing",
+      "seo": "SEO y Optimizacion"
+    },
+    "from": "Desde",
+    "delivery": "Entrega",
+    "days": "dias",
+    "viewAll": "Ver Todos los Servicios",
+    "requestQuote": "Solicitar Presupuesto"
+  },
+  "about": {
+    "title": "Nosotros",
+    "subtitle": "Un equipo internacional de expertos en IA y automatizacion",
+    "mission": "Nuestra mision es hacer la inteligencia artificial accesible para cada empresa, automatizando procesos repetitivos y liberando el potencial humano para lo que realmente importa.",
+    "teamTitle": "Nuestro Equipo",
+    "values": {
+      "title": "Nuestros Valores",
+      "innovation": "Innovacion",
+      "innovationDesc": "Siempre a la vanguardia en tecnologias AI",
+      "results": "Resultados",
+      "resultsDesc": "Medimos todo. Si no genera ROI, no lo hacemos",
+      "transparency": "Transparencia",
+      "transparencyDesc": "Comunicacion clara, sin costes ocultos",
+      "speed": "Velocidad",
+      "speedDesc": "Implementacion rapida, resultados en semanas no meses"
+    }
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "Resultados reales de empresas reales"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre nuestros servicios",
+    "items": {
+      "q1": "Cuanto tiempo lleva implementar una automatizacion?",
+      "a1": "Depende de la complejidad. Las automatizaciones simples estan listas en 3-5 dias, las complejas en 2-4 semanas. En la llamada gratuita definimos tiempos precisos.",
+      "q2": "Necesito conocimientos tecnicos?",
+      "a2": "Absolutamente no. Nos encargamos de todo, desde el diseno hasta la implementacion. Te formamos en el uso de las herramientas finales.",
+      "q3": "Que resultados puedo esperar?",
+      "a3": "En promedio nuestros clientes ven un aumento del 300% en productividad y un ahorro de 40+ horas al mes en tareas repetitivas.",
+      "q4": "Ofrecen soporte post-implementacion?",
+      "a4": "Si, todos nuestros planes incluyen soporte continuo. Monitorizamos las automatizaciones y las optimizamos con el tiempo.",
+      "q5": "Como funciona el proceso de onboarding?",
+      "a5": "1) Llamada de descubrimiento gratuita, 2) Analisis de procesos, 3) Propuesta personalizada, 4) Implementacion, 5) Formacion y Go-live."
+    }
+  },
+  "cta": {
+    "title": "Listo para Transformar tu Negocio?",
+    "subtitle": "Reserva una llamada gratuita de 30 minutos. Analizaremos tus procesos y te mostraremos como la IA puede multiplicar tus resultados.",
+    "button": "Reserva tu Llamada Gratis",
+    "noCommitment": "Sin compromiso. Sin costes ocultos."
+  },
+  "footer": {
+    "description": "AI Automation Agency especializada en automatizacion empresarial e inteligencia artificial.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio",
+    "cookies": "Politica de Cookies",
+    "rights": "Todos los derechos reservados."
+  },
+  "form": {
+    "title": "Solicitud de Colaboracion",
+    "subtitle": "Rellena el formulario para evaluar si podemos ayudarte",
+    "name": "Nombre Completo",
+    "email": "Email",
+    "company": "Nombre de la Empresa",
+    "website": "Sitio Web",
+    "industry": "Sector",
+    "employees": "Numero de Empleados",
+    "revenue": "Facturacion Anual",
+    "challenge": "Cual es tu principal desafio?",
+    "budget": "Presupuesto Mensual para Automatizacion",
+    "submit": "Enviar Solicitud",
+    "success": "Gracias! Te contactaremos en 24 horas.",
+    "industries": {
+      "dental": "Clinica Dental/Estetica",
+      "realestate": "Agencia Inmobiliaria",
+      "ecommerce": "E-commerce",
+      "saas": "SaaS/Tech",
+      "agency": "Agencia de Marketing",
+      "consulting": "Consultoria",
+      "other": "Otro"
+    }
+  }
+}

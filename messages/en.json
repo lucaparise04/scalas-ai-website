@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "apply": "Apply",
+    "contact": "Contact Us",
+    "bookCall": "Book a Call"
+  },
+  "hero": {
+    "badge": "AI Automation Agency",
+    "title": "We Accelerate Your Growth with AI",
+    "subtitle": "We automate your business processes with artificial intelligence, eliminating manual work and multiplying results.",
+    "cta": "Book a Free Call",
+    "ctaSecondary": "Explore Services",
+    "stats": {
+      "automations": "Active Automations",
+      "hours": "Hours Saved/Month",
+      "roi": "Avg Client ROI",
+      "clients": "Active Clients"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "End-to-end AI solutions for every area of your business",
+    "categories": {
+      "ai_automation": "AI & Automation",
+      "ai_agents": "AI Agents",
+      "lead_generation": "Lead Generation",
+      "cold_email": "Cold Email Outreach",
+      "crm": "CRM & Pipeline",
+      "social_media": "Social Media Management",
+      "content": "Content Creation",
+      "web_dev": "Web Development",
+      "analytics": "Analytics & Reporting",
+      "consulting": "Strategic Consulting",
+      "training": "Training",
+      "video": "Video Marketing",
+      "seo": "SEO & Optimization"
+    },
+    "from": "From",
+    "delivery": "Delivery",
+    "days": "days",
+    "viewAll": "View All Services",
+    "requestQuote": "Request Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "An international team of AI and automation experts",
+    "mission": "Our mission is to make artificial intelligence accessible to every business, automating repetitive processes and unlocking human potential for what truly matters.",
+    "teamTitle": "Our Team",
+    "values": {
+      "title": "Our Values",
+      "innovation": "Innovation",
+      "innovationDesc": "Always at the forefront of AI technologies",
+      "results": "Results",
+      "resultsDesc": "We measure everything. If it doesn't drive ROI, we don't do it",
+      "transparency": "Transparency",
+      "transparencyDesc": "Clear communication, no hidden costs",
+      "speed": "Speed",
+      "speedDesc": "Rapid implementation, results in weeks not months"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real results from real businesses"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our services",
+    "items": {
+      "q1": "How long does it take to implement an automation?",
+      "a1": "It depends on complexity. Simple automations are ready in 3-5 days, complex ones in 2-4 weeks. During the free call we define precise timelines.",
+      "q2": "Do I need technical skills?",
+      "a2": "Absolutely not. We handle everything from design to implementation. We train you on using the final tools.",
+      "q3": "What results can I expect?",
+      "a3": "On average our clients see a 300% increase in productivity and save 40+ hours per month on repetitive tasks.",
+      "q4": "Do you offer post-implementation support?",
+      "a4": "Yes, all our plans include ongoing support. We monitor automations and optimize them over time.",
+      "q5": "How does the onboarding process work?",
+      "a5": "1) Free discovery call, 2) Process analysis, 3) Custom proposal, 4) Implementation, 5) Training and Go-live."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Book a free 30-minute call. We'll analyze your processes and show you how AI can multiply your results.",
+    "button": "Book Your Free Call",
+    "noCommitment": "No commitment. No hidden costs."
+  },
+  "footer": {
+    "description": "AI Automation Agency specializing in business automation and artificial intelligence.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved."
+  },
+  "form": {
+    "title": "Collaboration Application",
+    "subtitle": "Fill out the form to see if we can help you",
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company Name",
+    "website": "Website",
+    "industry": "Industry",
+    "employees": "Number of Employees",
+    "revenue": "Annual Revenue",
+    "challenge": "What is your main challenge?",
+    "budget": "Monthly Budget for Automation",
+    "submit": "Submit Application",
+    "success": "Thank you! We'll contact you within 24 hours.",
+    "industries": {
+      "dental": "Dental/Aesthetic Clinic",
+      "realestate": "Real Estate Agency",
+      "ecommerce": "E-commerce",
+      "saas": "SaaS/Tech",
+      "agency": "Marketing Agency",
+      "consulting": "Consulting",
+      "other": "Other"
+    }
+  }
+}
