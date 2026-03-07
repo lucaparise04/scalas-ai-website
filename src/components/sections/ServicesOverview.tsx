@@ -9,7 +9,6 @@ import GradientGlow from "@/components/ui/GradientGlow";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 import { SERVICE_CATEGORIES } from "@/lib/constants";
-import { formatPrice } from "@/lib/utils";
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   ai_automation: (
@@ -70,7 +69,6 @@ export default function ServicesOverview() {
           viewport={{ once: true, margin: "-80px" }}
         >
           {featured.map((category) => {
-            const minPrice = Math.min(...category.services.map((s) => s.priceMin));
             return (
               <motion.div key={category.id} variants={staggerItem}>
                 <Card className="h-full flex flex-col">
@@ -110,13 +108,10 @@ export default function ServicesOverview() {
                     ))}
                   </ul>
 
-                  {/* Starting price */}
+                  {/* Explore link */}
                   <div className="pt-4 border-t border-white/10">
-                    <p className="text-sm text-white/30">
-                      {t("services.from")}{" "}
-                      <span className="text-cyan font-bold text-base">
-                        {formatPrice(minPrice)}
-                      </span>
+                    <p className="text-sm text-cyan font-medium group-hover:text-white transition-colors">
+                      Scopri di piu &rarr;
                     </p>
                   </div>
                 </Card>

@@ -130,3 +130,208 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
   z-index: 1;
 }
+
+/* ============================================================
+   PREMIUM VISUAL EFFECTS
+   ============================================================ */
+
+/* Animated gradient border keyframe */
+@keyframes gradient-rotate {
+  0% { --angle: 0deg; }
+  100% { --angle: 360deg; }
+}
+
+/* Beam/scan line animation */
+@keyframes beam {
+  0% { transform: translateY(-100%); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+/* Floating animation for 3D elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+/* Shimmer text animation */
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Bounce scroll indicator */
+@keyframes bounce-scroll {
+  0%, 100% { transform: translateY(0) translateX(-50%); }
+  50% { transform: translateY(10px) translateX(-50%); }
+}
+
+/* Pulse ring animation */
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+/* Slow spin for gradient borders */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Particle float */
+@keyframes particle-float {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+  25% { transform: translateY(-30px) translateX(10px); opacity: 0.6; }
+  50% { transform: translateY(-15px) translateX(-10px); opacity: 0.4; }
+  75% { transform: translateY(-40px) translateX(5px); opacity: 0.5; }
+}
+
+/* Grid dot pattern background */
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, rgba(91, 88, 235, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Animated beam line */
+.beam-line {
+  position: relative;
+}
+
+.beam-line::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, var(--color-cyan), transparent);
+  animation: beam 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Spotlight effect (mouse-follow) */
+.spotlight {
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(91, 88, 235, 0.06),
+    transparent 40%
+  );
+}
+
+/* Card spotlight (smaller radius for cards) */
+.card-spotlight {
+  background: radial-gradient(
+    350px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(91, 88, 235, 0.08),
+    transparent 40%
+  );
+}
+
+/* Text shimmer */
+.text-shimmer {
+  background: linear-gradient(
+    110deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0) 40%,
+    rgba(255,255,255,0.5) 50%,
+    rgba(255,255,255,0) 60%,
+    rgba(255,255,255,0) 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  animation: shimmer 3s infinite;
+}
+
+/* Gradient text with shimmer overlay */
+.text-gradient-shimmer {
+  background: linear-gradient(135deg, #5b58eb 0%, #bb63ff 50%, #56e1e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+/* Animated gradient border (rotating conic) */
+.gradient-border-animated {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.gradient-border-animated::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--angle, 0deg),
+    #5b58eb,
+    #bb63ff,
+    #56e1e9,
+    #5b58eb
+  );
+  animation: spin-slow 4s linear infinite;
+  z-index: -1;
+}
+
+.gradient-border-animated::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: rgba(10, 35, 83, 0.95);
+  z-index: -1;
+}
+
+/* Utility animation classes */
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
+.animate-beam { animation: beam 3s ease-in-out infinite; }
+.animate-bounce-scroll { animation: bounce-scroll 2s ease-in-out infinite; }
+.animate-pulse-ring { animation: pulse-ring 2s ease-out infinite; }
+.animate-spin-slow { animation: spin-slow 4s linear infinite; }
+
+/* Staggered animation delays */
+.animation-delay-500 { animation-delay: 0.5s; }
+.animation-delay-1000 { animation-delay: 1s; }
+.animation-delay-1500 { animation-delay: 1.5s; }
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-2500 { animation-delay: 2.5s; }
+
+/* Gradient line separator */
+.gradient-line {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(91, 88, 235, 0.3) 20%,
+    rgba(187, 99, 255, 0.5) 50%,
+    rgba(86, 225, 233, 0.3) 80%,
+    transparent 100%
+  );
+}
+
+/* Marquee fade mask */
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
