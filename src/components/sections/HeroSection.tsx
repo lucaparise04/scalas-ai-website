@@ -2,8 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
-import { Suspense } from "react";
 import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
@@ -12,14 +10,46 @@ import GradientGlow from "@/components/ui/GradientGlow";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 import { STATS, BOOKING_URL } from "@/lib/constants";
 
-const Spline = dynamic(() => import("@splinetool/react-spline"), {
-  ssr: false,
-  loading: () => (
-    <div className="w-full h-full rounded-2xl bg-gradient-card animate-pulse flex items-center justify-center">
-      <div className="w-24 h-24 rounded-full bg-gradient-cta opacity-30 animate-ping" />
+// Animated 3D placeholder - replace with Spline when scene is ready:
+// import dynamic from "next/dynamic";
+// const Spline = dynamic(() => import("@splinetool/react-spline"), { ssr: false });
+// Then use: <Spline scene="YOUR_SPLINE_URL" />
+
+function Hero3DPlaceholder() {
+  return (
+    <div className="w-full h-full rounded-2xl bg-gradient-card relative overflow-hidden flex items-center justify-center">
+      {/* Animated gradient orbs */}
+      <div className="absolute w-40 h-40 rounded-full bg-purple/30 blur-[60px] animate-pulse top-1/4 left-1/4" />
+      <div className="absolute w-32 h-32 rounded-full bg-cyan/30 blur-[60px] animate-pulse bottom-1/4 right-1/4" style={{ animationDelay: "1s" }} />
+      <div className="absolute w-24 h-24 rounded-full bg-purple-light/20 blur-[40px] animate-pulse top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" style={{ animationDelay: "0.5s" }} />
+
+      {/* Grid pattern */}
+      <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="hero-grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="0.5" className="text-purple" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#hero-grid)" />
+      </svg>
+
+      {/* Center icon */}
+      <motion.div
+        className="relative z-10 flex flex-col items-center gap-4"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
+        <div className="w-20 h-20 rounded-2xl bg-gradient-cta flex items-center justify-center glow-purple">
+          <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+          </svg>
+        </div>
+        <p className="text-sm text-white/40 font-medium">AI-Powered</p>
+      </motion.div>
     </div>
-  ),
-});
+  );
+}
 
 export default function HeroSection() {
   const t = useTranslations();
@@ -79,7 +109,7 @@ export default function HeroSection() {
             </motion.div>
           </motion.div>
 
-          {/* Right side - Spline 3D */}
+          {/* Right side - 3D Visual */}
           <motion.div
             className="relative w-full aspect-square lg:aspect-auto lg:h-[500px] xl:h-[600px]"
             initial={{ opacity: 0, scale: 0.9 }}
@@ -87,15 +117,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
-              <Suspense
-                fallback={
-                  <div className="w-full h-full rounded-2xl bg-gradient-card animate-pulse flex items-center justify-center">
-                    <div className="w-24 h-24 rounded-full bg-gradient-cta opacity-30 animate-ping" />
-                  </div>
-                }
-              >
-                <Spline scene="https://prod.spline.design/placeholder/scene.splinecode" />
-              </Suspense>
+              <Hero3DPlaceholder />
             </div>
             {/* Glow behind 3D scene */}
             <div className="absolute -inset-8 bg-purple/10 rounded-full blur-[100px] -z-10" />
