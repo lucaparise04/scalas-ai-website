@@ -2,8 +2,9 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
+    "solutions": "Soluciones",
     "about": "Nosotros",
-    "apply": "Aplica",
+    "apply": "Consulta Gratuita",
     "contact": "Contacto",
     "bookCall": "Reserva una Llamada"
   },
@@ -17,32 +18,188 @@
       "automations": "Automatizaciones Activas",
       "hours": "Horas Ahorradas/Mes",
       "roi": "ROI Medio Clientes",
-      "clients": "Clientes Activos"
+      "clients": "Clientes Activos",
+      "revenue": "Ingresos Generados por Clientes",
+      "aiAdoption": "Adopcion de IA",
+      "conversion": "Tasa de Conversion"
     }
+  },
+  "video": {
+    "title": "Descubre quienes somos en 3 minutos",
+    "subtitle": "Mira como ayudamos a las empresas a crecer con inteligencia artificial y automatizacion"
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Soluciones AI end-to-end para cada area de tu negocio",
+    "subtitle": "Soluciones a medida para hacer crecer cada area de tu negocio",
     "categories": {
-      "ai_automation": "AI y Automatizacion",
+      "automazione_ai": "Automatizacion & IA",
+      "vendite_lead_gen": "Ventas & Generacion de Leads",
+      "marketing_digitale": "Marketing Digital",
+      "consulenza_sviluppo": "Consultoria & Desarrollo"
+    },
+    "subgroups": {
+      "workflow_automation": "Automatizacion de Workflows",
       "ai_agents": "Agentes AI",
+      "analytics_reporting": "Analitica e Informes",
       "lead_generation": "Generacion de Leads",
-      "cold_email": "Cold Email Outreach",
-      "crm": "CRM y Pipeline",
-      "social_media": "Gestion de Redes Sociales",
-      "content": "Creacion de Contenido",
-      "web_dev": "Desarrollo Web",
-      "analytics": "Analitica e Informes",
-      "consulting": "Consultoria Estrategica",
+      "cold_email": "Cold Email",
+      "crm_pipeline": "CRM y Pipeline",
+      "social_media": "Redes Sociales",
+      "advertising": "Publicidad",
+      "content": "Contenido",
+      "seo": "SEO",
+      "consulting": "Consultoria",
       "training": "Formacion",
-      "video": "Video Marketing",
-      "seo": "SEO y Optimizacion"
+      "web_dev": "Desarrollo Web"
     },
     "from": "Desde",
     "delivery": "Entrega",
     "days": "dias",
     "viewAll": "Ver Todos los Servicios",
-    "requestQuote": "Solicitar Presupuesto"
+    "requestQuote": "Solicitar Presupuesto",
+    "filterAll": "Todos",
+    "heroWord1": "marketing",
+    "heroWord2": "ventas",
+    "heroWord3": "automatizacion",
+    "heroWord4": "crecimiento",
+    "featured": "Destacado",
+    "tabAll": "Todos",
+    "tabAutomation": "Automatizacion",
+    "tabMarketing": "Marketing",
+    "tabSales": "Ventas",
+    "tabDev": "Desarrollo",
+    "processTitle": "Como Trabajamos",
+    "processStep1": "Descubrimiento",
+    "processStep1Desc": "En la llamada introductiva entendemos tus procesos actuales, que has probado y cuales son los desafios reales de tu negocio",
+    "processStep2": "Estrategia",
+    "processStep2Desc": "Proponemos la combinacion de servicios mas adecuada — automatizacion, marketing, ventas o desarrollo — con un plan de accion concreto",
+    "processStep3": "Resultados",
+    "processStep3Desc": "Implementamos, monitoreamos y optimizamos continuamente para maximizar tu ROI",
+    "ctaTitle": "Solicita un Presupuesto Personalizado",
+    "ctaSubtitle": "Reserva una consulta gratuita y cuentanos los desafios de tu negocio",
+    "discoverServices": "Descubre los servicios",
+    "servicesCount": "servicios"
+  },
+  "categoryPage": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "bookCall": "Reserva una Llamada",
+    "from": "Desde",
+    "delivery": "Entrega",
+    "days": "dias",
+    "includes": "Incluye",
+    "idealFor": "Ideal para",
+    "whoIsFor": "Para quien es este servicio",
+    "howItWorks": "Como funciona",
+    "customizable": "Personalizable",
+    "relatedTitle": "Categorias Relacionadas",
+    "relatedSubtitle": "Descubre otros servicios complementarios",
+    "discoverMore": "Descubrir mas",
+    "servicesCount": "servicios",
+    "faqTitle": "Preguntas Frecuentes",
+    "faqSubtitle": "Respuestas a las preguntas mas comunes sobre esta categoria"
+  },
+  "categoryFaq": {
+    "automazione_ai": {
+      "q1": "Cuanto tiempo lleva implementar una automatizacion?",
+      "a1": "Un workflow simple requiere 3-5 dias, uno complejo con chatbot AI y multiples integraciones 2-4 semanas.",
+      "q2": "Como se entrena el chatbot con mis datos?",
+      "a2": "Utilizamos tecnologia RAG para indexar tus documentos, FAQ y base de conocimiento. El chatbot aprende de tu contenido especifico y responde con informacion precisa.",
+      "q3": "Tengo que pagar licencias de software adicionales?",
+      "a3": "n8n es open-source y lo alojamos nosotros. Para los agentes AI utilizamos modelos optimizados en costes. Lo discutimos todo en la llamada gratuita."
+    },
+    "vendite_lead_gen": {
+      "q1": "De donde se extraen los leads?",
+      "a1": "Utilizamos directorios publicos, LinkedIn, Google Maps y bases de datos sectoriales. Todos los datos cumplen con el GDPR.",
+      "q2": "Los cold emails son legales en Europa?",
+      "a2": "Si, los cold emails son legales si cumplen con las normativas GDPR. Nos aseguramos de que cada campana sea conforme.",
+      "q3": "El CRM se integra con mis herramientas actuales?",
+      "a3": "Si, a traves de nuestras automatizaciones conectamos Scaler CRM con cualquier herramienta: email, social, analitica, facturacion y mas."
+    },
+    "marketing_digitale": {
+      "q1": "Gestionan tanto Meta Ads como Google Ads?",
+      "a1": "Si, gestionamos campanas en ambas plataformas con optimizacion AI. Creamos la estrategia multicanal optima para tu negocio.",
+      "q2": "Cuanto tiempo se tarda en ver resultados SEO?",
+      "a2": "Las primeras mejoras se ven en 1-3 meses. Para resultados significativos en ranking, 3-6 meses es el plazo tipico.",
+      "q3": "Crean tambien contenido o solo estrategia?",
+      "a3": "Ambos. Ofrecemos estrategia de contenidos, copywriting AI, gestion de redes sociales y blog automation con publicacion automatica."
+    },
+    "consulenza_sviluppo": {
+      "q1": "Como funciona la consultoria estrategica AI?",
+      "a1": "Analizamos tus procesos actuales, identificamos oportunidades de automatizacion y creamos una hoja de ruta con prioridades y ROI estimado.",
+      "q2": "Que tecnologias usan para desarrollo web?",
+      "a2": "Usamos React/Next.js para web apps, Framer para sitios de alto impacto visual, e integramos todo con tu stack existente.",
+      "q3": "Ofrecen formacion para mi equipo?",
+      "a3": "Si, ofrecemos cursos practicos sobre herramientas AI y automatizacion n8n. Sesiones de 2-4 horas con material didactico y soporte post-curso."
+    },
+    "default": {
+      "q1": "Como funciona el proceso de trabajo?",
+      "a1": "1) Llamada de descubrimiento, 2) Analisis de necesidades, 3) Propuesta y timeline, 4) Implementacion, 5) Formacion y soporte.",
+      "q2": "Ofrecen soporte post-implementacion?",
+      "a2": "Si, todos nuestros proyectos incluyen un periodo de soporte. Tambien ofrecemos planes de mantenimiento mensual.",
+      "q3": "Puedo ver ejemplos de trabajos anteriores?",
+      "a3": "Por supuesto, durante la llamada gratuita mostramos casos de estudio y demos relevantes para tu sector."
+    }
+  },
+  "solutions": {
+    "title": "Soluciones por Industria",
+    "subtitle": "Stacks de automatizacion personalizados para tu sector",
+    "cliniche-dentali": {
+      "title": "Automatizacion para Clinicas Dentales y Esteticas",
+      "subtitle": "Automatiza reservas, reduce los no-shows y haz crecer tu clinica",
+      "heroLine": "Mas pacientes, menos trabajo manual",
+      "painPoint1": "Demasiado tiempo al telefono gestionando reservas y confirmaciones",
+      "painPoint2": "No-shows frecuentes que reducen la facturacion de la clinica",
+      "painPoint3": "Dificultad para seguir a los pacientes despues del tratamiento y generar resenas",
+      "stackTitle": "Tu stack de automatizacion",
+      "stackSubtitle": "La combinacion ideal de servicios para tu clinica",
+      "ctaTitle": "Reserva una consulta para tu clinica",
+      "ctaButton": "Habla con un experto"
+    },
+    "immobiliare": {
+      "title": "Automatizacion para Agencias Inmobiliarias",
+      "subtitle": "Genera leads cualificados y cierra mas ventas con IA",
+      "heroLine": "Mas ventas, pipeline siempre lleno",
+      "painPoint1": "Leads no cualificados que hacen perder tiempo a los agentes",
+      "painPoint2": "Follow-up manual que deja oportunidades sobre la mesa",
+      "painPoint3": "Ninguna visibilidad sobre el rendimiento del equipo de ventas",
+      "stackTitle": "Tu stack de automatizacion",
+      "stackSubtitle": "La combinacion ideal para tu agencia",
+      "ctaTitle": "Reserva una consulta para tu agencia",
+      "ctaButton": "Habla con un experto"
+    },
+    "b2b-europa": {
+      "title": "Automatizacion para Empresas B2B",
+      "subtitle": "Escala tu outreach y acelera tu pipeline de ventas",
+      "heroLine": "Outreach que escala, pipeline predecible",
+      "painPoint1": "Pipeline de ventas lento y poco predecible",
+      "painPoint2": "Outreach manual que no escala con el crecimiento",
+      "painPoint3": "Datos dispersos entre demasiadas herramientas sin vision unificada",
+      "stackTitle": "Tu stack de automatizacion",
+      "stackSubtitle": "La combinacion ideal para tu empresa",
+      "ctaTitle": "Reserva una consulta para tu empresa",
+      "ctaButton": "Habla con un experto"
+    },
+    "painPointsTitle": "Los desafios de tu sector",
+    "recommendedTitle": "Servicios recomendados",
+    "testimonialTitle": "Resultados reales"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Estamos listos para ayudarte a transformar tu negocio con IA",
+    "emailLabel": "Email",
+    "emailValue": "info@scalasai.com",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "Escribenos por WhatsApp",
+    "socialLabel": "Siguenos",
+    "formTitle": "Envianos un mensaje",
+    "nameField": "Nombre",
+    "emailField": "Email",
+    "messageField": "Mensaje",
+    "sendButton": "Enviar Mensaje",
+    "successMessage": "Mensaje enviado! Te responderemos en 24 horas.",
+    "orBookCall": "O reserva directamente una llamada gratuita",
+    "bookCallButton": "Reserva una Llamada"
   },
   "about": {
     "title": "Nosotros",
@@ -60,6 +217,16 @@
       "speed": "Velocidad",
       "speedDesc": "Implementacion rapida, resultados en semanas no meses"
     }
+  },
+  "process": {
+    "title": "Como Funciona",
+    "subtitle": "De la idea al resultado en 3 pasos simples",
+    "step1Title": "Descubrimiento",
+    "step1Desc": "En la llamada introductiva entendemos tus procesos, que has probado y cuales son tus desafios reales — gestion, adquisicion de clientes o ambos.",
+    "step2Title": "Estrategia",
+    "step2Desc": "Proponemos la combinacion ideal de servicios para tu caso: automatizacion, marketing, generacion de leads o consultoria. Cada proyecto es diferente.",
+    "step3Title": "Resultados",
+    "step3Desc": "Implementamos, monitorizamos y optimizamos continuamente. Tu negocio crece con soluciones que trabajan para ti."
   },
   "testimonials": {
     "title": "Lo Que Dicen Nuestros Clientes",
@@ -81,15 +248,48 @@
       "a5": "1) Llamada de descubrimiento gratuita, 2) Analisis de procesos, 3) Propuesta personalizada, 4) Implementacion, 5) Formacion y Go-live."
     }
   },
+  "aiShowcase": {
+    "title": "Tu Agente AI, Siempre Trabajando",
+    "subtitle": "Automatiza emails, CRM, redes sociales y analitica. Tu agente AI gestiona las tareas repetitivas mientras tu te concentras en el crecimiento.",
+    "cta": "Activa tu Agente AI"
+  },
+  "quickCta": {
+    "title": "Descubre como la IA puede hacer crecer tu negocio — recibe la guia gratuita",
+    "button": "Enviar",
+    "socialProof": "Unete a +100 empresas. Cero spam.",
+    "success": "Perfecto! Revisa tu email para la guia gratuita."
+  },
+  "incentives": {
+    "badge": "Incentivos Gubernamentales 2026",
+    "title": "Recupera hasta el 45% de tu inversion",
+    "subtitle": "Las empresas italianas pueden acceder a incentivos fiscales para la digitalizacion e inteligencia artificial. Te ayudamos con el tramite.",
+    "item1Title": "Superamortizacion 180%",
+    "item1Desc": "Deduccion de hasta el 180% para inversiones en activos digitales e infraestructura AI",
+    "item2Title": "Formacion AI Financiada",
+    "item2Desc": "Fondimpresa Avviso 4/2025: hasta 50.000 EUR para formacion empresarial en AI. Fecha limite 28 mayo 2026",
+    "item3Title": "Fondos Interprofesionales",
+    "item3Desc": "Fondimpresa y Fondirigenti financian la formacion AI de tus empleados",
+    "cta": "Consulta si tu empresa puede acceder",
+    "disclaimer": "Te asistimos con la solicitud. Cada caso se evalua individualmente."
+  },
+  "midCta": {
+    "title": "Quieres ver como funciona para tu sector?",
+    "primaryButton": "Reserva una Llamada Gratis",
+    "secondaryButton": "Deja tu Email"
+  },
   "cta": {
     "title": "Listo para Transformar tu Negocio?",
     "subtitle": "Reserva una llamada gratuita de 30 minutos. Analizaremos tus procesos y te mostraremos como la IA puede multiplicar tus resultados.",
     "button": "Reserva tu Llamada Gratis",
+    "secondaryButton": "Recibe la Guia Gratuita",
+    "testimonialQuote": "En 3 semanas automatizamos el 70% de los procesos repetitivos. El ROI fue inmediato.",
+    "testimonialAuthor": "Marco R., CEO Clinica Dental",
     "noCommitment": "Sin compromiso. Sin costes ocultos."
   },
   "footer": {
     "description": "AI Automation Agency especializada en automatizacion empresarial e inteligencia artificial.",
     "services": "Servicios",
+    "solutions": "Soluciones",
     "company": "Empresa",
     "legal": "Legal",
     "privacy": "Politica de Privacidad",
@@ -98,27 +298,56 @@
     "rights": "Todos los derechos reservados."
   },
   "form": {
-    "title": "Solicitud de Colaboracion",
-    "subtitle": "Rellena el formulario para evaluar si podemos ayudarte",
-    "name": "Nombre Completo",
-    "email": "Email",
+    "title": "Solicita una Consulta Gratuita",
+    "subtitle": "Rellena el formulario para descubrir como la IA puede ayudar a tu negocio a crecer",
+    "socialProof": "Unete a +100 empresas que usan IA",
+    "urgency": "Plazas limitadas — solo 5 consultas gratuitas esta semana",
+    "step1Label": "Tu Proyecto",
+    "step2Label": "Tus Detalles",
     "company": "Nombre de la Empresa",
     "website": "Sitio Web",
-    "industry": "Sector",
-    "employees": "Numero de Empleados",
-    "revenue": "Facturacion Anual",
-    "challenge": "Cual es tu principal desafio?",
-    "budget": "Presupuesto Mensual para Automatizacion",
-    "submit": "Enviar Solicitud",
-    "success": "Gracias! Te contactaremos en 24 horas.",
-    "industries": {
-      "dental": "Clinica Dental/Estetica",
-      "realestate": "Agencia Inmobiliaria",
-      "ecommerce": "E-commerce",
-      "saas": "SaaS/Tech",
-      "agency": "Agencia de Marketing",
-      "consulting": "Consultoria",
+    "optional": "opcional",
+    "serviceInterest": "Que servicio te interesa?",
+    "serviceOptions": {
+      "automation": "Automatizacion AI",
+      "chatbot": "Chatbot / Asistente Virtual",
+      "leadGeneration": "Generacion de Leads",
+      "crmPipeline": "CRM / Pipeline de Ventas",
+      "strategicConsulting": "Consultoria Estrategica",
       "other": "Otro"
-    }
+    },
+    "projectDescription": "Describe tu proyecto",
+    "projectDescriptionPlaceholder": "Cuentanos que quieres automatizar, que procesos quieres mejorar...",
+    "name": "Nombre Completo",
+    "email": "Email empresarial",
+    "phone": "Telefono",
+    "role": "Tu rol en la empresa",
+    "fatturato": "Facturacion Anual",
+    "fatturatoOptions": {
+      "less1M": "< 1 Millon €",
+      "1M5M": "1M – 5M €",
+      "5M10M": "5M – 10M €",
+      "20Mplus": "> 20 Millones €"
+    },
+    "employees": "Tamano de la empresa",
+    "employeeOptions": {
+      "solo": "Solo yo"
+    },
+    "timeline": "Cuando te gustaria empezar?",
+    "timelineOptions": {
+      "infoOnly": "Solo recopilando informacion",
+      "threeMonths": "En 3 meses",
+      "oneMonth": "En 1 mes",
+      "immediately": "Inmediatamente"
+    },
+    "privacyLabel": "Acepto el tratamiento de datos personales segun la",
+    "privacyLink": "Politica de Privacidad",
+    "next": "Continuar",
+    "back": "Atras",
+    "submit": "Enviar Solicitud",
+    "error": "Algo salio mal. Por favor intentalo de nuevo en un momento.",
+    "successQualified": "Perfecto! Elige tu horario para la consulta gratuita.",
+    "successUnqualified": "Gracias por tu interes! Te enviaremos recursos utiles por email.",
+    "bookCallPrompt": "Reserva ahora una llamada gratuita de 30 minutos con nuestro equipo."
   }
 }

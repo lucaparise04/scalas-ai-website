@@ -2,8 +2,9 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "solutions": "Solutions",
     "about": "About Us",
-    "apply": "Apply",
+    "apply": "Free Consultation",
     "contact": "Contact Us",
     "bookCall": "Book a Call"
   },
@@ -17,32 +18,188 @@
       "automations": "Active Automations",
       "hours": "Hours Saved/Month",
       "roi": "Avg Client ROI",
-      "clients": "Active Clients"
+      "clients": "Active Clients",
+      "revenue": "Client Revenue Generated",
+      "aiAdoption": "AI Adoption",
+      "conversion": "Conversion Rate"
     }
+  },
+  "video": {
+    "title": "Discover who we are in 3 minutes",
+    "subtitle": "See how we help businesses grow with artificial intelligence and automation"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "End-to-end AI solutions for every area of your business",
+    "subtitle": "Custom solutions to grow every area of your business",
     "categories": {
-      "ai_automation": "AI & Automation",
+      "automazione_ai": "Automation & AI",
+      "vendite_lead_gen": "Sales & Lead Generation",
+      "marketing_digitale": "Digital Marketing",
+      "consulenza_sviluppo": "Consulting & Development"
+    },
+    "subgroups": {
+      "workflow_automation": "Workflow Automation",
       "ai_agents": "AI Agents",
+      "analytics_reporting": "Analytics & Reporting",
       "lead_generation": "Lead Generation",
-      "cold_email": "Cold Email Outreach",
-      "crm": "CRM & Pipeline",
-      "social_media": "Social Media Management",
-      "content": "Content Creation",
-      "web_dev": "Web Development",
-      "analytics": "Analytics & Reporting",
-      "consulting": "Strategic Consulting",
+      "cold_email": "Cold Email",
+      "crm_pipeline": "CRM & Pipeline",
+      "social_media": "Social Media",
+      "advertising": "Advertising",
+      "content": "Content",
+      "seo": "SEO",
+      "consulting": "Consulting",
       "training": "Training",
-      "video": "Video Marketing",
-      "seo": "SEO & Optimization"
+      "web_dev": "Web Development"
     },
     "from": "From",
     "delivery": "Delivery",
     "days": "days",
     "viewAll": "View All Services",
-    "requestQuote": "Request Quote"
+    "requestQuote": "Request Quote",
+    "filterAll": "All",
+    "heroWord1": "marketing",
+    "heroWord2": "sales",
+    "heroWord3": "automation",
+    "heroWord4": "growth",
+    "featured": "Featured",
+    "tabAll": "All",
+    "tabAutomation": "Automation",
+    "tabMarketing": "Marketing",
+    "tabSales": "Sales",
+    "tabDev": "Development",
+    "processTitle": "How We Work",
+    "processStep1": "Discovery",
+    "processStep1Desc": "In our intro call, we learn about your current processes, what you've already tried, and the real challenges your business faces",
+    "processStep2": "Strategy",
+    "processStep2Desc": "We propose the right mix of services — whether it's automation, marketing, sales or development — with a concrete action plan",
+    "processStep3": "Results",
+    "processStep3Desc": "We implement, monitor and continuously optimize to maximize your ROI",
+    "ctaTitle": "Request a Custom Quote",
+    "ctaSubtitle": "Book a free consultation and tell us about your business challenges",
+    "discoverServices": "Discover services",
+    "servicesCount": "services"
+  },
+  "categoryPage": {
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Services",
+    "bookCall": "Book a Call",
+    "from": "From",
+    "delivery": "Delivery",
+    "days": "days",
+    "includes": "Includes",
+    "idealFor": "Ideal for",
+    "whoIsFor": "Who is this service for",
+    "howItWorks": "How it works",
+    "customizable": "Customizable",
+    "relatedTitle": "Related Categories",
+    "relatedSubtitle": "Discover other complementary services",
+    "discoverMore": "Learn more",
+    "servicesCount": "services",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Answers to common questions about this category"
+  },
+  "categoryFaq": {
+    "automazione_ai": {
+      "q1": "How long does it take to implement an automation?",
+      "a1": "A simple workflow takes 3-5 days, a complex one with AI chatbot and multiple integrations 2-4 weeks.",
+      "q2": "How is the chatbot trained on my data?",
+      "a2": "We use RAG technology to index your documents, FAQs and knowledge base. The chatbot learns from your specific content and answers with precise information.",
+      "q3": "Do I need to pay for additional software licenses?",
+      "a3": "n8n is open-source and we host it. For AI agents we use cost-optimized models. We discuss everything during the free call."
+    },
+    "vendite_lead_gen": {
+      "q1": "Where are leads sourced from?",
+      "a1": "We use public directories, LinkedIn, Google Maps and industry databases. All data is GDPR compliant.",
+      "q2": "Are cold emails legal in Europe?",
+      "a2": "Yes, cold emails are legal if they comply with GDPR regulations. We ensure every campaign is fully compliant.",
+      "q3": "Does the CRM integrate with my existing tools?",
+      "a3": "Yes, through our automations we connect Scaler CRM with any tool: email, social, analytics, billing and more."
+    },
+    "marketing_digitale": {
+      "q1": "Do you manage both Meta Ads and Google Ads?",
+      "a1": "Yes, we manage campaigns on both platforms with AI optimization. We create the optimal multi-channel strategy for your business.",
+      "q2": "How long does it take to see SEO results?",
+      "a2": "First improvements are visible in 1-3 months. For significant ranking results, 3-6 months is the typical timeline.",
+      "q3": "Do you also create content or just strategy?",
+      "a3": "Both. We offer content strategy, AI copywriting, social media management and blog automation with automatic publishing."
+    },
+    "consulenza_sviluppo": {
+      "q1": "How does the AI strategy consulting work?",
+      "a1": "We analyze your current processes, identify automation opportunities and create a roadmap with priorities and estimated ROI.",
+      "q2": "What technologies do you use for web development?",
+      "a2": "We use React/Next.js for web apps, Framer for high-impact visual sites, and integrate everything with your existing stack.",
+      "q3": "Do you offer training for my team?",
+      "a3": "Yes, we offer practical courses on AI tools and n8n automation. Sessions of 2-4 hours with educational material and post-course support."
+    },
+    "default": {
+      "q1": "How does the work process look?",
+      "a1": "1) Discovery call, 2) Needs analysis, 3) Proposal and timeline, 4) Implementation, 5) Training and support.",
+      "q2": "Do you offer post-implementation support?",
+      "a2": "Yes, all our projects include a support period. We also offer monthly maintenance plans.",
+      "q3": "Can I see examples of previous work?",
+      "a3": "Of course, during the free call we show relevant case studies and demos for your industry."
+    }
+  },
+  "solutions": {
+    "title": "Solutions by Industry",
+    "subtitle": "Custom automation stacks for your sector",
+    "cliniche-dentali": {
+      "title": "Automation for Dental & Aesthetic Clinics",
+      "subtitle": "Automate bookings, reduce no-shows and grow your clinic",
+      "heroLine": "More patients, less manual work",
+      "painPoint1": "Too much time spent on the phone managing bookings and confirmations",
+      "painPoint2": "Frequent no-shows reducing clinic revenue",
+      "painPoint3": "Difficulty following up with patients after treatment and generating reviews",
+      "stackTitle": "Your automation stack",
+      "stackSubtitle": "The ideal combination of services for your clinic",
+      "ctaTitle": "Book a consultation for your clinic",
+      "ctaButton": "Talk to an expert"
+    },
+    "immobiliare": {
+      "title": "Automation for Real Estate Agencies",
+      "subtitle": "Generate qualified leads and close more sales with AI",
+      "heroLine": "More sales, always-full pipeline",
+      "painPoint1": "Unqualified leads wasting agents' time",
+      "painPoint2": "Manual follow-up leaving opportunities on the table",
+      "painPoint3": "No visibility into sales team performance",
+      "stackTitle": "Your automation stack",
+      "stackSubtitle": "The ideal combination for your agency",
+      "ctaTitle": "Book a consultation for your agency",
+      "ctaButton": "Talk to an expert"
+    },
+    "b2b-europa": {
+      "title": "Automation for B2B Companies",
+      "subtitle": "Scale your outreach and accelerate your sales pipeline",
+      "heroLine": "Outreach that scales, predictable pipeline",
+      "painPoint1": "Slow and unpredictable sales pipeline",
+      "painPoint2": "Manual outreach that doesn't scale with growth",
+      "painPoint3": "Data scattered across too many tools without unified visibility",
+      "stackTitle": "Your automation stack",
+      "stackSubtitle": "The ideal combination for your business",
+      "ctaTitle": "Book a consultation for your business",
+      "ctaButton": "Talk to an expert"
+    },
+    "painPointsTitle": "Your industry challenges",
+    "recommendedTitle": "Recommended services",
+    "testimonialTitle": "Real results"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're ready to help you transform your business with AI",
+    "emailLabel": "Email",
+    "emailValue": "info@scalasai.com",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "Message us on WhatsApp",
+    "socialLabel": "Follow us",
+    "formTitle": "Send us a message",
+    "nameField": "Name",
+    "emailField": "Email",
+    "messageField": "Message",
+    "sendButton": "Send Message",
+    "successMessage": "Message sent! We'll reply within 24 hours.",
+    "orBookCall": "Or book a free call directly",
+    "bookCallButton": "Book a Call"
   },
   "about": {
     "title": "About Us",
@@ -60,6 +217,16 @@
       "speed": "Speed",
       "speedDesc": "Rapid implementation, results in weeks not months"
     }
+  },
+  "process": {
+    "title": "How It Works",
+    "subtitle": "From idea to results in 3 simple steps",
+    "step1Title": "Discovery",
+    "step1Desc": "In our intro call, we learn about your processes, what you've tried, and your real challenges — operations, client acquisition, or both.",
+    "step2Title": "Strategy",
+    "step2Desc": "We propose the ideal service mix for your case: automation, marketing, lead generation or consulting. Every project is different.",
+    "step3Title": "Results",
+    "step3Desc": "We implement, monitor and continuously optimize. Your business grows with solutions that work for you."
   },
   "testimonials": {
     "title": "What Our Clients Say",
@@ -81,15 +248,48 @@
       "a5": "1) Free discovery call, 2) Process analysis, 3) Custom proposal, 4) Implementation, 5) Training and Go-live."
     }
   },
+  "aiShowcase": {
+    "title": "Your AI Agent, Always Working",
+    "subtitle": "Automate emails, CRM, social media and analytics. Your AI agent handles repetitive tasks while you focus on growth.",
+    "cta": "Activate Your AI Agent"
+  },
+  "quickCta": {
+    "title": "Discover how AI can grow your business — get the free guide",
+    "button": "Send",
+    "socialProof": "Join +100 companies. Zero spam.",
+    "success": "Perfect! Check your email for the free guide."
+  },
+  "incentives": {
+    "badge": "Government Incentives 2026",
+    "title": "Recover up to 45% of your investment",
+    "subtitle": "Italian businesses can access tax incentives for digitalization and artificial intelligence. We help you with the application process.",
+    "item1Title": "180% Super-Deduction",
+    "item1Desc": "Up to 180% tax deduction for investments in digital assets and AI infrastructure",
+    "item2Title": "Funded AI Training",
+    "item2Desc": "Fondimpresa Notice 4/2025: up to 50,000 EUR for corporate AI training. Deadline May 28, 2026",
+    "item3Title": "Inter-Professional Funds",
+    "item3Desc": "Fondimpresa and Fondirigenti fund AI training for your employees",
+    "cta": "Check if your company qualifies",
+    "disclaimer": "We assist you with the application. Each case is evaluated individually."
+  },
+  "midCta": {
+    "title": "Want to see how it works for your industry?",
+    "primaryButton": "Book a Free Call",
+    "secondaryButton": "Leave Your Email"
+  },
   "cta": {
     "title": "Ready to Transform Your Business?",
     "subtitle": "Book a free 30-minute call. We'll analyze your processes and show you how AI can multiply your results.",
     "button": "Book Your Free Call",
+    "secondaryButton": "Get the Free Guide",
+    "testimonialQuote": "In 3 weeks we automated 70% of repetitive processes. The ROI was immediate.",
+    "testimonialAuthor": "Marco R., CEO Dental Studio",
     "noCommitment": "No commitment. No hidden costs."
   },
   "footer": {
     "description": "AI Automation Agency specializing in business automation and artificial intelligence.",
     "services": "Services",
+    "solutions": "Solutions",
     "company": "Company",
     "legal": "Legal",
     "privacy": "Privacy Policy",
@@ -98,27 +298,56 @@
     "rights": "All rights reserved."
   },
   "form": {
-    "title": "Collaboration Application",
-    "subtitle": "Fill out the form to see if we can help you",
-    "name": "Full Name",
-    "email": "Email",
+    "title": "Request a Free Consultation",
+    "subtitle": "Fill out the form to discover how AI can help your business grow",
+    "step1Label": "Your Project",
+    "step2Label": "Your Details",
     "company": "Company Name",
     "website": "Website",
-    "industry": "Industry",
-    "employees": "Number of Employees",
-    "revenue": "Annual Revenue",
-    "challenge": "What is your main challenge?",
-    "budget": "Monthly Budget for Automation",
-    "submit": "Submit Application",
-    "success": "Thank you! We'll contact you within 24 hours.",
-    "industries": {
-      "dental": "Dental/Aesthetic Clinic",
-      "realestate": "Real Estate Agency",
-      "ecommerce": "E-commerce",
-      "saas": "SaaS/Tech",
-      "agency": "Marketing Agency",
-      "consulting": "Consulting",
+    "optional": "optional",
+    "serviceInterest": "Which service are you interested in?",
+    "serviceOptions": {
+      "automation": "AI Automation",
+      "chatbot": "Chatbot / Virtual Assistant",
+      "leadGeneration": "Lead Generation",
+      "crmPipeline": "CRM / Sales Pipeline",
+      "strategicConsulting": "Strategic Consulting",
       "other": "Other"
-    }
+    },
+    "projectDescription": "Describe your project",
+    "projectDescriptionPlaceholder": "Tell us what you want to automate, which processes you want to improve...",
+    "name": "Full Name",
+    "email": "Business Email",
+    "phone": "Phone",
+    "role": "Your role in the company",
+    "fatturato": "Annual Revenue",
+    "fatturatoOptions": {
+      "less1M": "< 1 Million €",
+      "1M5M": "1M – 5M €",
+      "5M10M": "5M – 10M €",
+      "20Mplus": "> 20 Million €"
+    },
+    "employees": "Company Size",
+    "employeeOptions": {
+      "solo": "Just me"
+    },
+    "timeline": "When would you like to start?",
+    "timelineOptions": {
+      "infoOnly": "Just gathering information",
+      "threeMonths": "Within 3 months",
+      "oneMonth": "Within 1 month",
+      "immediately": "Immediately"
+    },
+    "privacyLabel": "I accept the processing of personal data per the",
+    "privacyLink": "Privacy Policy",
+    "next": "Continue",
+    "back": "Back",
+    "submit": "Submit Request",
+    "error": "Something went wrong. Please try again in a moment.",
+    "successQualified": "Perfect! Choose your time for the free consultation.",
+    "successUnqualified": "Thank you for your interest! We'll send you useful resources via email.",
+    "bookCallPrompt": "Book a free 30-minute call with our team now.",
+    "socialProof": "Join +100 companies using AI",
+    "urgency": "Limited spots — only 5 free consultations this week"
   }
 }
